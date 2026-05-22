@@ -23,8 +23,9 @@
 
 # Bài 3:
 ton_kho = 100 
-xuat_kho = int(input("Nhập số lượng muốn xuất: "))
 while True:
+    xuat_kho = int(input("Nhập số lượng muốn xuất: "))
+
     if xuat_kho < 0:
         print("Không được nhập số âm, vui lòng nhập lại!")
         continue
